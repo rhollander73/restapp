@@ -12,9 +12,9 @@ Simple REST backend with Spring Boot and Java 11 to demonstrate:
 Instructions:  
 
 1. Build it with Maven from within the root of this project:  
-mvn clean install
-or with the Maven wrapper
-mvnw clean install
+mvn clean install  
+or with the Maven wrapper:  
+mvnw clean install  
  
 2. Then run:  
 java -jar target/restapp-1.0.jar
