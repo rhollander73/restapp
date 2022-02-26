@@ -1,6 +1,6 @@
 # Getting Started
 
-Simple REST backend with Spring Boot and Java 11 to demonstrate:  
+Simple REST backend with Spring Boot 2.6.4 and Java 17 to demonstrate:  
 - Spring Data Rest  
 - JPA  
 - H2  

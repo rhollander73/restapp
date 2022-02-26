@@ -65,6 +65,19 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.2.0</version>
+				<configuration>
+					<from>
+						<image>registry.hub.docker.com/rhollander73/eclipse-temurin</image>
+					</from>
+					<to>
+						<image>registry.hub.docker.com/rhollander73/restapp</image>
+					</to>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
